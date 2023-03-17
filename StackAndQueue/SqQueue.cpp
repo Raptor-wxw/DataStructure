@@ -14,7 +14,7 @@ void InitQueue(SqQueue &Q)
 	Q.rear = Q.front=0;
 }
 
-bool isEmpty(SqQueue Q)
+bool IsEmpty(SqQueue Q)
 {
 	return Q.front == Q.rear;
 }
